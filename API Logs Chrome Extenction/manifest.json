@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "API Logs",
+  "version": "1.0",
+  "action": {
+    "default_icon": "APILogs.jpeg",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["webRequest", "activeTab", "declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"]
+}

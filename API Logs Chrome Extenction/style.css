@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+
+}
+
+p {
+  text-align: center;
+  color: black;
+
+}
+
+strong{
+color: red;
+font-size: large;
+}
